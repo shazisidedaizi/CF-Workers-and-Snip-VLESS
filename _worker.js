@@ -279,7 +279,7 @@ export default {
                             host = cdnItem;
                         }
                         
-                        const vlsNodeName = nodeName ? `${nodeName}-${host}` : `${host}`;
+                        const vlsNodeName = nodeName ? `${vlsHeader}-${nodeName}-${host}` : `${vlsHeader}-${host}`;
                         return `${vlsHeader}://${yourUUID}@${host}:${port}?encryption=none&security=tls&sni=${currentDomain}&fp=firefox&allowInsecure=1&type=ws&host=${currentDomain}&path=%2F%3Fed%3D2560#${vlsNodeName}`;
                     });
                     
@@ -307,7 +307,7 @@ export default {
                                 host = cdnItem;
                             }
                             
-                            const troNodeName = nodeName ? `${nodeName}-${host}` : `${host}`;
+                            const troNodeName = nodeName ? `${vlsHeader}-${nodeName}-${host}` : `${vlsHeader}-${host}`;
                             return `${troHeader}://${yourUUID}@${host}:${port}?security=tls&sni=${currentDomain}&fp=firefox&allowInsecure=1&type=ws&host=${currentDomain}&path=%2F%3Fed%3D2560#${troNodeName}`;
                         });
                         allLinks = [...vlsLinks, ...troLinks];
