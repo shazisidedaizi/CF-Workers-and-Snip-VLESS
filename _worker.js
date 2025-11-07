@@ -14,7 +14,7 @@ let disabletro = false;  // 是否关闭trojan, 设置为true时关闭，false�
 
 // CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
-    'saas.sin.fan#HK', 'store.ubi.com#HK','cf.877774.xyz#HK','cf.130519.xyz#SG','cloudflare-ip.mofashi.ltd#SG','cf.008500.xyz#USLA', 'time.is#USSEA'
+    'saas.sin.fan#HK', 'store.ubi.com#HK','cf.877774.xyz#HK','cf.130519.xyz#SG','cloudflare-ip.mofashi.ltd#SG','cf.008500.xyz#USLA', 'time.is#USSEA',
     'cf.090227.xyz#USSJC', 'bestcf.030101.xyz#USSJC','www.visa.cn#JPTKY','cfip.1323123.xyz#jJPTKY','cf.0sm.com##GBLON','104.16.0.0#USSEA','104.17.0.0#USSJC',
 	'104.19.0.0#USLA','104.26.0.0#USSEA','162.159.0.0#USLA','172.66.0.0#USLA','172.64.78.126USDEN','172.64.78.164#USORD','172.64.78.185#USATL',
 	'162.159.137.212#JPTKY','170.114.52.85#DEFRA','141.101.90.115#NLAMS','172.65.64.57#FRCDG','170.114.52.9#AUSYD','172.65.90.41#BRGRU','170.114.52.144#CAYYZ',
