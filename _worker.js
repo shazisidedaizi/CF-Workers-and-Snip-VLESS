@@ -307,7 +307,7 @@ export default {
                                 host = cdnItem;
                             }
                             
-                            const troNodeName = nodeName ? `${vlsHeader}-${nodeName}-${host}` : `${vlsHeader}-${host}`;
+                            const troNodeName = nodeName ? `${troHeader}-${nodeName}-${host}` : `${troHeader}-${host}`;
                             return `${troHeader}://${yourUUID}@${host}:${port}?security=tls&sni=${currentDomain}&fp=firefox&allowInsecure=1&type=ws&host=${currentDomain}&path=%2F%3Fed%3D2560#${troNodeName}`;
                         });
                         allLinks = [...vlsLinks, ...troLinks];
