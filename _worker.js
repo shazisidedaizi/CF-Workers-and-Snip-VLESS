@@ -275,7 +275,7 @@ export default {
                             host = cdnItem;
                         }
                         
-                        const vlsNodeName = nodeName ? `${nodeName}-${vlsHeader}` : `Workers-${vlsHeader}`;
+                        const vlsNodeName = nodeName ? `${nodeName}-${vlsHeader}` : `${host}`;
                         return `${vlsHeader}://${yourUUID}@${host}:${port}?encryption=none&security=tls&sni=${currentDomain}&fp=firefox&allowInsecure=1&type=ws&host=${currentDomain}&path=%2F%3Fed%3D2560#${vlsNodeName}`;
                     });
                     
