@@ -10,7 +10,7 @@ let subPath = 'mysub';     // 节点订阅路径,不修改将使用uuid作为订
 let password = '123456';  // 主页密码,建议修改或添加 PASSWORD环境变量
 let proxyIP = '13.230.34.30';  // proxyIP
 let yourUUID = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63'; // UUID,建议修改或添加环境便量
-let disabletro = false;  // 是否关闭trojan, 设置为true时关闭，false开启 
+let disabletro = true;  // 是否关闭trojan, 设置为true时关闭，false开启 
 
 // CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
