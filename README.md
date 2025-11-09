@@ -68,7 +68,8 @@ YouTube视频部署教程：https://youtu.be/GEcKz2NoKlM
 ## snippets / workers 路径进阶用法
 
 ### 相关路径说明
-<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/86b3dd1d-bbca-4786-9bb3-430bf6700024" />
+<img width="1027" height="1163" alt="image" src="https://github.com/user-attachments/assets/3f3f57a1-2272-4e4b-8494-a09e5b69ebc4" />
+
 
 | 类型 | 示例 | 说明 |
 |------|------|------|
