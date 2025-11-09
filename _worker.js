@@ -117,7 +117,7 @@ function parsePryAddress(serverStr) {
 }
 
 function isSpeedTestSite(hostname) {
-    const speedTestDomains = ['speedtest.net','fast.com',];
+    const speedTestDomains = ['speedtest.net','fast.com','speedtest.cn','speed.cloudflare.com', 'ovo.speedtestcustom.com'];
     if (speedTestDomains.includes(hostname)) {
         return true;
     }
